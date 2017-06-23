@@ -35,4 +35,9 @@ class ObjectEvent extends Event
     {
         return $this->object;
     }
+
+    public function setObject($object)
+    {
+        $this->object = $object;
+    }
 }
